@@ -5,7 +5,7 @@ node {
 }
     stage('Build') {
       echo 'Hello World'
-      sh 'java -version'
+      sh 'mvn package'
 
     }
 
