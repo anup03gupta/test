@@ -6,7 +6,7 @@ node {
     stage('Build') {
      def mvnHome = tool name: 'maven', type: 'maven'
       echo 'Hello World'
-       sh "${mvnHome}/bin/share/maven/mvn package"
+       sh "${mvnHome}/mvn package"
 
     }
 
